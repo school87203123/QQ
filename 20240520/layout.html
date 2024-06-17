@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用div來排版</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #cont{
+            width: 80%;
+            margin: 0px auto;
+            background-color: aqua;
+        }
+        #header{
+            height: 300px;
+            background-color: rgb(10, 148, 113);
+        }
+        #nav{
+            height: 100px;
+            background-color: blue;
+        }
+        #aside{
+            background-color: black;
+            float: left;
+            width: 20%;
+            min-height: 800px;
+           
+        }
+        #section{
+            background-color: rgb(223, 223, 191);
+            min-height: 800px;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        #footer{
+            clear: both;
+            height: 200px;
+            background-color: rgb(10, 9, 10);
+        }
+        .pic{
+            width: 100px; /* 圖片寬度100% */
+            height: 100px; /* 圖片高度，根據需要調整 */
+            background-image: url(img/8fff9f2e554a6de3a6368a01c42f72c0.jpg);
+            background-size: cover;
+
+ 
+}
+    .item {
+     /* 調整項目的寬度 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+       display: inline-block;
+
+    }
+
+    </style>
+</head>
+<body>
+        <div id="cont">
+            <div id="header"></div>
+            <div id="nav"></div>
+            <div id="main"></div>
+                <div id="aside"></div>
+                <div id="section">
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                    <div class="item">
+                        <div class="pic"></div>
+                        <h1>123</h1>
+                        <p>123</p>
+                    </div>
+                </div>
+
+            </div>
+        <div id="footer"></div>
+        </div>
+</body>
+</html>

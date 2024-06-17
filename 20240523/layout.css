@@ -1,0 +1,54 @@
+#qq{
+    width: 80%;
+    margin: auto;
+}
+
+body{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(241, 162, 43);
+}
+
+
+nav{
+    height: 100px;
+    background-color: aqua;
+}
+section{
+    width: 80%;
+    background-color: aquamarine;
+}
+aside{
+    width: 20%;
+
+    background-color: black;
+}
+main{
+    display: flex;
+    flex-direction: row-reverse
+}
+footer{
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.sub-section{
+    min-height: 305px;
+    background-color: rgb(236, 71, 154);
+    margin: 10px;
+    border-radius: 20px;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+figcaption{
+    font-size: 1.5em;
+    text-align: center;
+}

@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body {
+    background-color: yellow;
+    background-image: url(img/unnamed.jpg);
+    background-attachment: fixed;
+    background-repeat: calc();
+}
+
+/*連結顏色設定*/
+
+.menu a {
+    padding: 10px;
+    display: inline-block;
+    color: #000;
+    width: 280px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: aliceblue;
+    color: #000;
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+.menu li {
+    list-style-type: none;
+    border: 1px solid rgb(7, 75, 179);
+    display: inline-block;
+    width: 300px;
+
+    text-align: center;
+    border-radius: 5px;
+    background-color: #048eeb;
+}
+
+
+
+/*頁面標題設定*/
+h1 {
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid;
+    background-color: rgb(230, 163, 64);
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #000;
+    text-shadow: 5px 5px 10px #000;
+}
+
+/*次標題設定*/
+.h {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted;
+    border-left: 10px solid;
+    color: #1595eb;
+}
+
+/*小標題設定*/
+.h-sub {
+    padding: 10px;
+    background-color: #45a8eb;
+    color: rgb(189, 72, 4);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px;
+}
+
+
+/*內容區塊邊框設定*/
+#contents {
+    width: 980px;
+    margin: 0 auto;
+    border: 3px solid;
+    padding: 40px 80px;
+    background-color: rgba(25, 137, 230, 0.3);
+}
+
+
+/*「更多介紹」連結設定*/
+.more {
+    text-align: right;
+}
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+#contents>section+section {
+    margin-top: 80px;
+}
+
+section+header {
+    margin-top: 80px;
+}
+
+
+/*文繞圖設定*/
+.imgL {
+    float: left;
+    margin-right: 20px;
+}
+
+.imgR {
+
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*圓形圖片設定*/
+.round {
+    border-radius: 70%;
+}
+
+.photo {
+    width: 350px;
+    height: 300px;
+}
+
+/*利用偽元素設定樣式*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}

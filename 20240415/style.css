@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*背景設定*/
+#container {
+    width: 980px;
+    margin: 0 auto;
+    border: 3px solid;
+    padding: 40px 80px;
+    background-color: rgba(25, 137, 230, 0.3);
+}
+/*h1 h2設定*/
+
+.span{
+    font-size: 200% ;
+    color: aqua;
+}
+
+/*圓形圖片設定*/
+.round {
+    border-radius: 70%;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 2;
+    border: 10px solid;
+    border-color: aliceblue;
+    
+}
+
+/*文繞圖設定*/
+.imgL {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+.imgR {
+     float: right;
+}
+

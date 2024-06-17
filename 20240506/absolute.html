@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+    <script defer src="../fontawesome-free-6.5.2-web/js/all.js"></script> <!--load all styles -->
+    <style>
+        body{
+            margin: 0px;
+        }
+
+        #container{
+            width: 980px;
+            margin: 0px auto;
+            position: relative;
+        }
+
+        header{
+            height: 200px;
+            background-color: lightblue;
+        }
+
+        nav{
+            height: 100px;
+            background-color: antiquewhite;
+        }
+
+        main{
+            min-height: 1000px;
+            background-color: aqua;
+        }
+
+        footer{
+            height: 100px;
+            background-color: aquamarine;
+        }
+
+        .uptop{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            line-height: 50px;
+            background-color: rgb(77, 157, 223);
+            right: -40px;
+            position: absolute;
+            bottom: 10px;
+            z-index: 1;
+        }
+
+        .photo{
+            font-size: 5em;
+            color: lightcoral;
+            position: absolute;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header><i class="fa-solid fa-cat photo"></i></header>
+        <nav>Nav</nav>
+        <main>Main</main>
+        <footer>Footer</footer>
+        <div class="uptop">
+            <i class="fa-solid fa-arrow-up fa-bounce fa-2xl"></i>
+        </div>
+    </div>
+</body>
+</html>

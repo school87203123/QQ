@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*設定甚麼我忘記了*/
+#contents {
+    width: 980px;
+    margin: 0 auto;
+    padding: 40px 80px;
+    border: 1px solid #000000;
+    background-color: rgba(131, 214, 214, 0.9)
+}
+
+/*視窗背景色設定*/
+body{
+    background-color:#ddf182;
+    background-image: url(/other/tsubasa_hanekawa__face_vector__by_mike_rmb_d7i36um-fullview.png);
+    background-repeat: repeat;
+}
+
+/*連結顏色設定*/
+a{
+    color: #def078;
+    font-size: 20px;
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+
+
+/*頁面標題設定*/
+h1{
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #000000;
+    background-color: #d7f9fa;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+    color: rgb(116, 170, 218);
+    border-radius: 15px;
+    box-shadow: 1px 5px 10px #172225;
+    text-shadow: 1px 2px 5px rgb(51, 16, 16);
+    box-shadow: 0px 0px 5px #532ae7 inset;
+}
+
+/*次標題設定*/
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #3a7e64;
+    border-left: 10px solid #3a7e64;
+}
+
+/*小標題設定*/
+.h-sub{
+    padding: auto;
+    background-color: rgba(17, 230, 230, 0.5);
+    box-shadow: 1px 1px 15px #cffd27 inset;
+    border-radius: 10px;
+    border: 1px solid  #ddf182;
+}
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+
+
+/*圓形圖片設定*/
+
+.photo{
+    width: 650px;
+    height: 400px;
+}
